@@ -1,0 +1,29 @@
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 12px 24px;
+  font-size: 1.25rem;
+}
+
+
+
+.btn-primary {
+  background-color: hsl(0,0%,10%);
+  color: white;
+  border-radius: 3px;
+  font-weight: bold;
+  transition: all 0.15s ease;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.3) contrast(0.9);
+}
+
+.btn-primary:active {
+  transform: translateY(2px);
+}
+
+.btn-text {
+  color: hsl(0,0%,10%);
+}
